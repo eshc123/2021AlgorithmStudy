@@ -1,6 +1,7 @@
 import java.util.*
 import java.io.*
 
+//기본 문제
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val bw = BufferedWriter(OutputStreamWriter(System.out))
