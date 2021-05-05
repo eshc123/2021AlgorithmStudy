@@ -21,7 +21,7 @@ fun main() {
 //import java.util.*
 //import java.io.*
 //
-//fun main() {
+//fun stack.stack.main() {
 //    val br = BufferedReader(InputStreamReader(System.`in`))
 //    val bw = BufferedWriter(OutputStreamWriter(System.out))
 //    val array = Array(100) { 0 }
