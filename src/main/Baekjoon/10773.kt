@@ -1,5 +1,3 @@
-package stack
-
 import java.io.*
 import java.util.*
 
