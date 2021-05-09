@@ -43,4 +43,9 @@
 - 10828 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/10828.kt
 - 10773 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/10773.kt
 - 1874 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/1874.kt (*)
+- 
 
+#### 0x06 [큐](https://www.acmicpc.net/workbook/view/7310)
+
+- 10845 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/10845.kt
+- 2164 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/2164.kt
