@@ -16,4 +16,5 @@ fun main() {
             bw.write("$a ")
     }
     bw.flush()
+    bw.close()
 }
