@@ -49,3 +49,10 @@
 
 - 10845 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/10845.kt
 - 2164 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/2164.kt
+
+
+
+#### 0x07 [덱](https://www.acmicpc.net/workbook/view/7311)
+
+- 10866 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/10866.kt
+- 1021 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/1021.kt
