@@ -56,3 +56,10 @@
 
 - 10866 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/10866.kt
 - 1021 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/1021.kt
+
+
+
+#### 0x08 [스택의 활용(수식의 괄호 쌍)](https://www.acmicpc.net/workbook/view/7312)
+
+- 4949 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/4949.kt
+- 10799 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/Baekjoon/10799.kt
