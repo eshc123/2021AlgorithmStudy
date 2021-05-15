@@ -26,8 +26,14 @@ fun strfry(a : String, b : String) : String {
     for(i in b){
         arr2[i-'a'] += 1
     }
-    for(i in 0 until ('z'-'a'+1)){
-        if(arr1[i] != arr2[i]) return "Impossible"
+    if(arr1.contentEquals(arr2)){
+        return "Possible"
     }
-    return "Possible"
+    else{
+        return "Impossible"
+    }
+//    for(i in 0 until ('z'-'a'+1)){
+//        if(arr1[i] != arr2[i]) return "Impossible"
+//    }
+//    return "Possible"
 }
