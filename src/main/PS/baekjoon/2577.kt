@@ -1,4 +1,5 @@
-import java.util.*
+package baekjoon
+
 import java.io.*
 
 fun main() {

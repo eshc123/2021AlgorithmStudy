@@ -1,3 +1,5 @@
+package baekjoon
+
 import java.io.*
 import java.util.*
 
@@ -9,7 +11,7 @@ fun main() {
         val st1 = StringTokenizer(br.readLine())
         val a =  st1.nextToken()
         val b =  st1.nextToken()
-        bw.write(strfry(a,b)+"\n")
+        bw.write(strfry(a,b) +"\n")
     }
 
 

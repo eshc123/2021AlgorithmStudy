@@ -1,5 +1,6 @@
+package baekjoon
+
 import java.io.*
-import java.lang.StringBuilder
 import java.util.*
 
 fun main() {
