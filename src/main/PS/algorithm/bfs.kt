@@ -19,7 +19,7 @@ fun main() {
     visited[0][0] = 1
     while(!queue.isEmpty()){
         val q = queue.poll()
-
+        visited[q.first][q.second] = 1
         print("$q ")
         for(i in 0..3){
             val x = q.first + dx[i]
