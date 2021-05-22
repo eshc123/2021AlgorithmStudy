@@ -23,7 +23,7 @@ fun main() {
 
     for(i in 0 until m) {
         for (j in 0 until n) {
-            if (arr[i][j] == 1 && visited[i][j] == -1) {
+            if (arr[i][j] == 1 ) {
                 queue.add(Pair(i, j))
                 visited[i][j] = 0
             }
@@ -35,11 +35,10 @@ fun main() {
             val x = q.first + dx[idx]
             val y = q.second + dy[idx]
             if (x < 0 || x >= m || y < 0 || y >= n) continue
-            if (arr[x][y] == 0 && visited[x][y]==-1) {
-                queue.add(Pair(x, y))
-                visited[x][y] = visited[q.first][q.second] + 1
-                arr[x][y] = 1
-            }
+            if (arr[x][y] == -1 || visited[x][y] !=-1 ) continue
+            queue.add(Pair(x, y))
+            visited[x][y] = visited[q.first][q.second] + 1
+            arr[x][y] = 1
         }
     }
     var max = 0
