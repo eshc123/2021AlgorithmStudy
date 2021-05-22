@@ -10,7 +10,7 @@
 
 #### 0x02 [기초 코드 작성 요령 II](https://www.acmicpc.net/workbook/view/7306)
 
-- 1000 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/src/main/PS/baekjoon/1000.kt
+- 1000 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/PS/baekjoon/1000.kt
 - 2557 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/PS/baekjoon/2577.kt
 - 10871 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/PS/baekjoon/10871.kt
 - 2480 : https://github.com/eshc123/2021AlgorithmStudy/blob/main/src/main/PS/baekjoon/2480.kt
