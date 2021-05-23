@@ -3,7 +3,7 @@ package baekjoon
 import java.util.*
 import java.io.*
 
-data class Point(val x : Int, val y :Int,val p : Char)
+data class Point(val x : Int, val y :Int)
 
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
@@ -32,7 +32,7 @@ fun main() {
     for(i in 0 until n){
         for(j in 0 until m){
             if(arr[i][j]=='F'){
-                queue.add(Point(i,j,'F'))
+                queue.add(Point(i,j))
                 visited[i][j] = 0
             }
             if(arr[i][j]=='J') {
@@ -48,29 +48,26 @@ fun main() {
             val y = q.y + dy[idx]
             if(x<0 || x>=n || y<0 || y>=m) continue
             if(arr[x][y]=='#' || visited[x][y]>=0) continue
-            queue.add(Point(x,y,'F'))
+            queue.add(Point(x,y))
             visited[x][y]=visited[q.x][q.y]+1
         }
     }
-    queue.add(Point(jx, jy, 'J'))
+    queue.add(Point(jx, jy))
     visited1[jx][jy] = 0
-    var cnt = 0
-    var b = false
-    loop@while(!queue.isEmpty()){
+    while(!queue.isEmpty()){
         val q = queue.poll()
         for(idx in 0..3){
             val x = q.x + dx[idx]
             val y = q.y + dy[idx]
             if(x<0 || x>=n || y<0 || y>=m) {
-                cnt = visited1[q.x][q.y]+1
-                b = true
-                break@loop
+                print(visited1[q.x][q.y]+1)
+                return
             }
             if(arr[x][y]=='#' || visited1[x][y]>=0) continue
             if(visited[x][y] != -1 && visited[x][y]<=visited1[q.x][q.y]+1) continue
-            queue.add(Point(x,y,'J'))
+            queue.add(Point(x,y))
             visited1[x][y]=visited1[q.x][q.y]+1
         }
     }
-    print(if(b) cnt else "IMPOSSIBLE")
+    print("IMPOSSIBLE")
 }
